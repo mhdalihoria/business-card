@@ -1,4 +1,4 @@
-import github from "../images/github-icon.png"
+import github from "../images/gitHub-icon.png"
 import linkedin from "../images/linkedin-icon.png"
 
 export default function Footer() {
