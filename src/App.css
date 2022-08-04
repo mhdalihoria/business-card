@@ -1,0 +1,156 @@
+.App {
+    max-width: 320px;
+    background: #1A1B21;
+    margin: auto;
+    border-radius:10px 10px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+/******************************
+    Info Component Styling
+*******************************/
+.info {
+    text-align: center;
+    border-radius:10px 10px 0px 0px;
+}
+
+.info--profile--photo {
+    width: 100%;
+    height: auto;
+    border-radius:10px 10px 0px 0px;
+}
+
+.info--container {
+    padding: 0 2.2rem;
+}
+
+.info--name {
+    font-size: 1.6rem;
+
+    margin: 1.2rem 0 0;
+}
+
+.info--occupation, 
+.info--website {
+    margin: 0;
+}
+
+.info--occupation {
+    margin-top: 5px 0 0;
+    
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: .92rem;
+}
+
+/* Styling the link/website part of .info */
+.info--website {
+    margin-top: 9px;
+
+    font-size: .6rem;
+    font-weight: 400;
+}
+
+.info--website:hover {
+    transform: scale(1.1)
+}
+
+.info--website > a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.info--website > a:visited {
+    color: white;
+}
+
+.info--email--btn {
+    background: white;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+
+    padding: 9px 13px 9px 11px;
+    margin-top: 1.6rem;
+
+    font-size: .8rem;
+
+    cursor: pointer;
+}
+
+.info--email--btn:hover {
+    background:#ffffffd9
+}
+
+.info--email--btn__icon {
+    padding-right: 9px;
+}
+
+
+/*****************************
+    About Component Styling
+******************************/
+.about {
+    margin-top: 25px;
+    padding: 0 2.2rem;
+}
+
+.about--title {
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.about--body {
+    margin-top: 0.35rem;
+
+    color: #DCDCDC;
+    font-size: .65rem;
+}
+
+
+/*****************************
+    Interests Component Styling
+******************************/
+.interests {
+    margin: 27px 0 25px;
+    padding: 0 2.2rem;
+}
+
+.interests--title {
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.interests--body {
+    margin-top: 0.35rem;
+
+    color: #DCDCDC;
+    font-size: .65rem;
+}
+
+/*****************************
+    Footer Component Styling
+******************************/
+.footer {
+    background: #161619;
+    padding: 1rem;
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer--icon {
+    cursor: pointer;
+}
+
+.footer--icon:hover{
+    transform: scale(1.1)
+}
